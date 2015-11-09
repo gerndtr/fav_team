@@ -1,7 +1,15 @@
 Rails.application.routes.draw do
+  devise_for :owners
+  devise_for :users
+  resources :players
+  resources :teams
+  resources :users
+  resources :line_items
+  resources :carts
+  resources :products
   get 'store/index'
 
-  resources :products
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

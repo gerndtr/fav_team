@@ -14,11 +14,11 @@
  *= require_self
  */
 #banner {
-  background: #9c9;
+  background: #003300;
   padding: 10px;
   border-bottom: 2px solid;
   font: small-caps 40px/40px "Times New Roman", serif;
-  color: #282;
+  color: gold;
   text-align: center;
 
   img {
@@ -48,14 +48,14 @@
     float: left;
     padding: 1em 2em;
     width: 13em;
-    background: #141;
+    background: #0000FF;
 	
     ul {
       padding: 0;
       li {
         list-style: none;
         a {
-          color: #bfb;
+          color: gold;
           font-size: small;
         }
       }

@@ -8,38 +8,30 @@
 #---
 # encoding: utf-8
 Product.delete_all
-Product.create!(title: 'CoffeeScript',
+Product.create!(title: "USA FIFA Women's World Cup Champions Junior Women's T-Shirt (Black)",
   description: 
     %{<p>
-        CoffeeScript is JavaScript done right. It provides all of JavaScript's
-	functionality wrapped in a cleaner, more succinct syntax. In the first
-	book on this exciting new language, CoffeeScript guru Trevor Burnham
-	shows you how to hold onto all the power and flexibility of JavaScript
-	while writing clearer, cleaner, and safer code.
+        Show your love for the ladies of the USWNT after their amazing 5-2 victory against Japan in the 2015 FIFA Women's World Cup in Canada! The USWNT now has the most World Cup titles of any women's national soccer team. Officially licensed. 100% cotton.
       </p>},
-  image_url:   'cs.jpg',    
-  price: 36.00)
+  image_url:   'women_worldcup_shirt.jpg',    
+  price: 16.99)
 # . . .
-Product.create!(title: 'Programming Ruby 1.9 & 2.0',
+Product.create!(title: "Men's Denver Broncos New Era Orange 2015 Salute to Service On-Field 39THIRTY Flex Hat",
   description:
     %{<p>
-        Ruby is the fastest growing and most exciting dynamic language
-        out there. If you need to get working programs delivered fast,
-        you should add Ruby to your toolbox.
+        Rock some Salute to Service headwear with this Denver Broncos On-Field hat from New Era. It features authentic Denver Broncos colors along with a very special camo design that pays tribute to our country's military personnel and their service. 
+
+100% of the NFL's proceeds from Salute to Service products are donated to three non-profit organizations (USO, Pat Tillman Foundation and Wounded Warrior Project).
       </p>},
-  image_url: 'ruby.jpg',
-  price: 49.95)
+  image_url: 'broncos_cap.jpg',
+  price: 31.99)
 # . . .
 
-Product.create!(title: 'Rails Test Prescriptions',
+Product.create!(title: "Men's Cleveland Cavaliers adidas Navy On-Court Climalite Ultimate Long Sleeve T-Shirt",
   description: 
     %{<p>
-        <em>Rails Test Prescriptions</em> is a comprehensive guide to testing
-        Rails applications, covering Test-Driven Development from both a
-        theoretical perspective (why to test) and from a practical perspective
-        (how to test effectively). It covers the core Rails testing tools and
-        procedures for Rails 2 and Rails 3, and introduces popular add-ons,
-        including Cucumber, Shoulda, Machinist, Mocha, and Rcov.
+        Stay cool while the Cleveland Cavaliers are heating up the court in this adidas On-Court climalite Ultimate T-shirt! Its climalite technology conducts heat from the body, keeping you cool and comfortable while you root for the Cleveland Cavaliers!
       </p>},
-  image_url: 'rtp.jpg',
-  price: 34.95)
+  image_url: 'cleveland_bb_shirt.jpg',
+  price: 34.99)
+  
